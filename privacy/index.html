@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – BumbleTasks</title>
+  <style>
+    :root {
+      --gold: #C8973A;
+      --gold-light: #FFF8EC;
+      --dark: #1C1C1A;
+      --muted: #888;
+      --bg: #F7F4EF;
+      --white: #FFFFFF;
+      --radius: 14px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--dark);
+      line-height: 1.7;
+      padding: 24px 20px 60px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 32px 0 28px;
+    }
+    .logo { font-size: 40px; margin-bottom: 10px; }
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--dark);
+      letter-spacing: -0.5px;
+    }
+    .updated { font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .badge {
+      display: inline-block;
+      background: var(--gold-light);
+      color: var(--gold);
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 20px;
+      padding: 4px 12px;
+      margin-top: 10px;
+      border: 1px solid rgba(200,151,58,0.25);
+    }
+    section {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 22px 20px;
+      margin-bottom: 16px;
+      border: 1px solid rgba(0,0,0,0.05);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+    h2 {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    h2 .icon { font-size: 18px; }
+    p { font-size: 15px; color: #444; margin-bottom: 10px; }
+    p:last-child { margin-bottom: 0; }
+    ul { padding-left: 20px; margin-bottom: 10px; }
+    li { font-size: 15px; color: #444; margin-bottom: 6px; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight {
+      background: var(--gold-light);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 14px;
+      color: #6b4c1a;
+      margin-top: 8px;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 32px;
+    }
+    footer a { color: var(--gold); }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">🐝</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: March 2026</p>
+    <span class="badge">BumbleTasks</span>
+  </header>
+
+  <section>
+    <h2><span class="icon">👋</span> Overview</h2>
+    <p>BumbleTasks ("we", "our", or "us") is committed to protecting your family's privacy. This Privacy Policy explains what information we collect, how we use it, and your choices.</p>
+    <div class="highlight">
+      We do not sell your personal data to third parties — ever.
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="icon">📋</span> Information We Collect</h2>
+    <p><strong>Account Information:</strong> When you register, we collect your email address and password (stored securely via Supabase Auth).</p>
+    <p><strong>Family & Profile Data:</strong> Family name, child profile names, ages, emoji avatars, and points balances that you create within the App.</p>
+    <p><strong>Task & Reward Data:</strong> Tasks you create, assign, and complete; rewards you define; and point transaction history.</p>
+    <p><strong>Usage Data:</strong> Crash reports and basic usage analytics (via Sentry) to help us improve the App. This data is anonymized and does not include personal identifiers.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">👧</span> Children's Privacy</h2>
+    <p>BumbleTasks is intended for use by parents and guardians to manage their children's tasks. Child profiles within the App are created and controlled entirely by the parent/guardian.</p>
+    <ul>
+      <li>We do not knowingly collect personal information directly from children.</li>
+      <li>Child profiles contain only the information you (the parent) provide: a name, age, and emoji avatar.</li>
+      <li>Children do not create accounts or register with BumbleTasks independently.</li>
+    </ul>
+    <p>If you believe a child has submitted personal information to us without parental consent, please contact us at <a href="mailto:support@bumbletasks.com">support@bumbletasks.com</a> and we will promptly delete it.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🔧</span> How We Use Your Information</h2>
+    <ul>
+      <li>To provide and maintain the App's core features (tasks, rewards, profiles).</li>
+      <li>To send real-time updates within your family (via Supabase Realtime).</li>
+      <li>To diagnose crashes and fix bugs (via Sentry).</li>
+      <li>To respond to your support requests.</li>
+    </ul>
+    <p>We do not use your data for advertising.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🤝</span> Third-Party Services</h2>
+    <p>We use the following trusted third-party services to operate BumbleTasks:</p>
+    <ul>
+      <li><strong>Supabase</strong> — Database, authentication, and real-time sync. <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a></li>
+      <li><strong>Sentry</strong> — Error monitoring and crash reporting. <a href="https://sentry.io/privacy/" target="_blank">Privacy Policy</a></li>
+    </ul>
+    <p>These services are bound by their own privacy policies and data processing agreements.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🔒</span> Data Security</h2>
+    <p>We take reasonable measures to protect your data:</p>
+    <ul>
+      <li>All data is transmitted over HTTPS.</li>
+      <li>Passwords are hashed and never stored in plain text.</li>
+      <li>Access to your family's data is restricted by Row-Level Security policies in our database.</li>
+    </ul>
+    <p>No method of transmission over the internet is 100% secure, but we strive to use industry-standard protections.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🗑️</span> Data Deletion</h2>
+    <p>You can request deletion of your family's data at any time:</p>
+    <ul>
+      <li>Use the "Delete Family & Data" option in Settings.</li>
+      <li>Or email us at <a href="mailto:support@bumbletasks.com">support@bumbletasks.com</a> and we'll delete your data within 30 days.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon">📬</span> Changes to This Policy</h2>
+    <p>We may update this Privacy Policy periodically. We will notify you of significant changes via in-app notice or email. The date at the top of this page reflects the most recent update.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">✉️</span> Contact Us</h2>
+    <p>If you have questions or concerns about your privacy, please reach out.</p>
+    <p><a href="mailto:support@bumbletasks.com">support@bumbletasks.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 BumbleTasks. All rights reserved.</p>
+    <p style="margin-top:6px"><a href="terms-of-service.html">Terms of Service</a></p>
+  </footer>
+
+</body>
+</html>
